@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-30T16:44:37.483Z",
+  "sourceUrl": "https://www.nuuvem.com/lp/pt/gta-6/",
+  "filtersApplied": {
+    "excludeTrackingPixels": true,
+    "excludeThirdPartyFonts": false,
+    "excludeThirdPartyStyles": false
+  },
+  "excludedResources": [
+    {
+      "url": "https://scripts.clarity.ms/0.8.76-beta/clarity.js",
+      "kind": "image",
+      "reason": {
+        "type": "tracking",
+        "domain": "clarity.ms"
+      }
+    },
+    {
+      "url": "https://www.clarity.ms/tag/ovdfaowpim",
+      "kind": "image",
+      "reason": {
+        "type": "tracking",
+        "domain": "clarity.ms"
+      }
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-3BQRZREB88",
+      "kind": "image",
+      "reason": {
+        "type": "tracking",
+        "domain": "googletagmanager.com"
+      }
+    }
+  ],
+  "missingResources": [
+    {
+      "url": "https://www.nuuvem.com/lp/pt/gta-6/all",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://www.nuuvem.com/favicon.png",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/webclip.png",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/gta6-logo.avif",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/Vice_City_09-thumb.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/Brian_Heder_04-thumb.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/Real_Dimez_02-thumb.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/DreQuan_Priest_01-thumb.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/Lucia_Caminos_02-thumb.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/Jason_Duval_05-thumb.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/Jason_Duval_01-thumb.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/Ambrosia_01-thumb.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/about-img.png",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/jason-duval.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/lucia-caminos.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/cal-hampton.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/boobie-ike.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/drequan-priest.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/real-dimez.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/raul-bautista.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/brian-heder.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/vice-city.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/leonida-keys.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/grassrivers.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/port-gellhorn.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/ambrosia.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/mount-kalaga.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/17f81a8ea568ac39f5d19d434df2d098.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/uw0agjtygeiiichkhlub.jpg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/render-editions.png",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/playstation-5.svg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/xbox-series.svg",
+      "reason": "Failed to fetch"
+    },
+    {
+      "url": "https://www.nuuvem.com/DJCTQ_-_18.svg",
+      "reason": "Failed to fetch"
+    }
+  ],
+  "fonts": {
+    "declared": [],
+    "downloaded": []
+  },
+  "baseline": null
+}

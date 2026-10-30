@@ -1,0 +1,190 @@
+/* Importa a fonte do Google (se falhar, usa uma fonte padrão) */
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Iceland", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Coloquei uma cor azul escura de fundo. Se a imagem Ninja.jpg existir, ela vai por cima */
+    background: linear-gradient(rgba(10, 10, 30, 0.6), rgba(10, 10, 30, 0.8)), url('./Ninja.jpg') center/cover no-repeat;
+    background-color: #0f172a; 
+    padding: 20px;
+}
+
+/* Container Transparente (Efeito Vidro) */
+.container {
+    width: 420px;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.05); /* Fundo branco bem transparente */
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    color: #fff;
+    padding: 30px 40px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+.container h1 {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e2e8f0; /* Cor do título */
+    text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+/* Inputs */
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 55px;
+    margin: 25px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Input escuro transparente */
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+    padding: 20px 50px 20px 20px;
+    transition: 0.3s ease;
+}
+
+.input-box input:focus {
+    border-color: #a855f7; /* Cor roxa ao clicar no input */
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.4);
+}
+
+.input-box input::placeholder {
+    color: #94a3b8;
+}
+
+/* Ícones SVG */
+.input-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    color: #94a3b8;
+    pointer-events: none;
+    transition: 0.3s ease;
+}
+
+.input-box input:focus + .icon {
+    color: #a855f7; /* Ícone fica roxo ao focar */
+}
+
+/* Lembrar Senha e Esqueci a Senha */
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: -10px 0 20px;
+    font-size: 16px;
+}
+
+.remember-forgot label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #cbd5e1;
+}
+
+.remember-forgot label input {
+    accent-color: #a855f7;
+    margin-right: 8px;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+
+.remember-forgot a {
+    text-decoration: none;
+    color: #cbd5e1;
+    transition: 0.3s;
+}
+
+.remember-forgot a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Botão */
+.login {
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #0f172a; /* Texto escuro */
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.login:hover {
+    background-color: #a855f7; /* Fica roxo no hover */
+    border-color: #a855f7;
+    color: #fff;
+}
+
+/* Link Cadastre-se */
+.register-link {
+    font-size: 16px;
+    text-align: center;
+    margin: 25px 0 10px;
+    color: #cbd5e1;
+}
+
+.register-link a {
+    text-decoration: none;
+    color: #a855f7; /* Roxo */
+    font-weight: 600;
+}
+
+.register-link a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Corrige o fundo branco quando o navegador preenche automaticamente */
+.input-box input:-webkit-autofill,
+.input-box input:-webkit-autofill:hover, 
+.input-box input:-webkit-autofill:focus {
+    -webkit-text-fill-color: #fff;
+    -webkit-box-shadow: 0 0 0px 1000px #1a1a2e inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Responsivo para celular */
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 25px 20px;
+    }
+    .container h1 {
+        font-size: 30px;
+    }
+    .input-box {
+        margin: 20px 0;
+    }
+}
